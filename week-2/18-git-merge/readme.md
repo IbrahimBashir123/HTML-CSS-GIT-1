@@ -25,7 +25,7 @@ You should see the following printed to the terminal, which tells you that you a
 Enter the following command into your terminal to create a new branch:
 
 ```shell
-git checkout -b orange_links
+git checkout -b orange_linkgit s
 ```
 
 Enter `git branch` to see if the branch was created. You should see the following:
@@ -38,7 +38,7 @@ Enter `git branch` to see if the branch was created. You should see the followin
 ```
 
 This means that you are currently editing the `orange_links` branch.
-
+cd
 Now edit the `style.css` file and change the colour of the links in your messages to `orangered`. Check to see if the links have changed colour. If they have, then add and commit your changes.
 
 Next, you will need to push the `orange_links` branches. When you have a _new_ branch, you have to add extra information to the _first_ `push` command:
